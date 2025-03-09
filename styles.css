@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 250px; /* Điều chỉnh kích thước ảnh */
+  height: auto;
+  opacity: 0.5; /* Độ mờ 50% */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-container img:hover {
+  opacity: 1; /* Hiển thị rõ khi hover */
+}
